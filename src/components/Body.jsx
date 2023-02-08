@@ -1,0 +1,32 @@
+import React, { useEffect } from 'react';
+import "./css/Body.css";
+import Particle from './Particle';
+import Typewriter from "typewriter-effect";
+function Body() {
+  return (
+    <div className='Body'>
+      <div className='pjs'>
+        <Particle />
+        <div className="body__header__text">
+          <div className="typedJs">Hello! I am Aakarsh <br />
+            <div className="home__intro">
+                <Typewriter
+                  options={{
+                    autoStart: true,
+                    loop: true,
+                    delay: 40,
+                    strings: [
+                      "A Software Engineer",
+                      "A Web Developer",
+                      "A Machine Learning Enthusiast"
+                    ],
+                  }} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Body
