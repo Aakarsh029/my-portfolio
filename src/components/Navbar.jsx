@@ -16,7 +16,7 @@ function Navbar() {
     return (
         <div className='Navbar'>
             <div className="header">
-                <div className="image__header"><div className="image"><img src="/images/1.jpg" /></div></div>
+                <div className="image__header"><div className="image"><img src="./images/1.jpg" /></div></div>
                 <div className="header__name">Aakarsh Bansal</div>
                 <div className="social__media__links">
                     <div className="social__media__icons">

@@ -8,7 +8,7 @@
     position: fixed;
 }
 .header{
-    padding-top: 20px;
+    padding-top: 10px; 
     display: grid;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,6 @@
 }
 .Navbar__icons{
     padding: 20px;
-    padding-top: 30px;
 }
 .Navbar__names{
     display: flex;
