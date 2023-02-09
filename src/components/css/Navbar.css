@@ -56,7 +56,7 @@
     width: 39px;
     height: 39px;
     border-radius: 50%;
-    margin: 2px;
+    margin: 1px;
     background-color: #4d0000;
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@
     display: flex;
     object-fit: cover;
     margin: 20px;
-    margin-top: 25px;
+    margin-top: 20px;
     color: white;
     cursor: pointer;
 }

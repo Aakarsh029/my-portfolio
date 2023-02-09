@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import "./css/Body.css";
 import Particle from './Particle';
+import About from './About';
+import Skills from './Skills';
 import Typewriter from "typewriter-effect";
 function Body() {
   return (
@@ -25,6 +27,8 @@ function Body() {
           </div>
         </div>
       </div>
+      <About />
+      <Skills />
     </div>
   )
 }

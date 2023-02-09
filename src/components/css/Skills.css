@@ -1,0 +1,17 @@
+.Skills{
+    min-height: 100vh;
+    background-color: white;
+    min-width: 75vw;
+    padding: 40px;
+}
+.Skills__heading{
+    font-size: 30px;
+    color: #1a0000;
+    font-weight: 700;
+}
+.Skills hr{
+    width: 60px;
+    border: 2px solid #800000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

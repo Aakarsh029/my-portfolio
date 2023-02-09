@@ -32,7 +32,7 @@ function Navbar() {
                     <div className="social__media__icons">
                         <IconButton>
                             <LinkedInIcon />
-                        </IconButton>
+                        </IconButton> 
                     </div>
                     <div className="social__media__icons">
                         <IconButton>
