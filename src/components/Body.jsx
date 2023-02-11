@@ -4,6 +4,7 @@ import Particle from './Particle';
 import About from './About';
 import Skills from './Skills';
 import Typewriter from "typewriter-effect";
+import Project from './Project';
 function Body() {
   return (
     <div className='Body'>
@@ -29,6 +30,7 @@ function Body() {
       </div>
       <About />
       <Skills />
+      <Project />
     </div>
   )
 }

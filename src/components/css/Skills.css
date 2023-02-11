@@ -15,3 +15,30 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.Skills__holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    mix-blend-mode: multiply;
+    flex-wrap: wrap;
+}
+.Skills__container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-basis: 48%;
+}
+
+.Skills__flexx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress-bar-wrap{
+    background-color: 	#FFC0CB;
+}
+.progress-bar{
+    height: 10px;
+    background-color: #5a0000;
+    margin-top: 5px;
+    /* width: 90%; */
+}
