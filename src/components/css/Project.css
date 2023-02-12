@@ -2,6 +2,7 @@
     min-height: auto;
     background-color: white;
     min-width: 75vw;
+    width: 75vw;
     padding: 20px;
     transition: all 0.5s ease;
 }

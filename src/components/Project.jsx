@@ -36,7 +36,7 @@ function Project() {
 
 
   return (
-    <div className="Project">
+    <div className="Project" id='Projects'>
       <div className="Project__heading">Project</div>
       <hr />
       <div className="Project__content">I have

@@ -3,7 +3,7 @@ import "./css/About.css";
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 function About() {
     return (
-        <div className='About'>
+        <div className='About' id='About'>
             <div className="About__heading">About</div>
             <hr />
             Hi! I am Aakarsh, a Pre-Final Year Student of Computer Science and Engineering. 

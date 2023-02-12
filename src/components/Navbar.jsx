@@ -61,18 +61,18 @@ function Navbar() {
                     </div>
                 </div>
                 <div className="Navbar__icons">
-                    <div className="Navbar__names">
+                    <a href="#Home"><div className="Navbar__names">
                         <HomeIcon /> <span>Home</span>
-                    </div>
-                    <div className="Navbar__names">
+                    </div></a>
+                    <a href="#About"><div className="Navbar__names">
                         <PersonIcon /> <span>About</span>
-                    </div>
-                    <div className="Navbar__names">
+                    </div></a>
+                    <a href="#Skills"><div className="Navbar__names">
                         <BookIcon /> <span>Skills</span>
-                    </div>
-                    <div className="Navbar__names">
-                        <ContentPasteGoIcon /> <span>Projets</span>
-                    </div>
+                    </div></a>
+                    <a href="#Projects"><div className="Navbar__names">
+                        <ContentPasteGoIcon /> <span>Projects</span>
+                    </div></a>
                     <div className="Navbar__names">
                         <MailOutlineIcon /> <span>Contact</span>
                     </div>

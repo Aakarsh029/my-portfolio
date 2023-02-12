@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 import Project from './Project';
 function Body() {
   return (
-    <div className='Body'>
+    <div className='Body' id='Home'>
       <div className='pjs'>
         <Particle />
         <div className="body__header__text">
