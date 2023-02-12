@@ -24,6 +24,14 @@ function Navbar() {
             navigation.classList.toggle("active");
       
     }
+    const close = () => {
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".Navbar");
+        
+            menuBtn.classList.remove("active");
+            navigation.classList.remove("active");
+      
+    }
 
     return (
         <>
@@ -61,16 +69,16 @@ function Navbar() {
                     </div>
                 </div>
                 <div className="Navbar__icons">
-                    <a href="#Home"><div className="Navbar__names">
+                    <a href="#Home" onClick={() => close()}><div className="Navbar__names">
                         <HomeIcon /> <span>Home</span>
                     </div></a>
-                    <a href="#About"><div className="Navbar__names">
+                    <a href="#About" onClick={() => close()}><div className="Navbar__names">
                         <PersonIcon /> <span>About</span>
                     </div></a>
-                    <a href="#Skills"><div className="Navbar__names">
+                    <a href="#Skills" onClick={() => close()}><div className="Navbar__names">
                         <BookIcon /> <span>Skills</span>
                     </div></a>
-                    <a href="#Projects"><div className="Navbar__names">
+                    <a href="#Projects" onClick={() => close()}><div className="Navbar__names">
                         <ContentPasteGoIcon /> <span>Projects</span>
                     </div></a>
                     <div className="Navbar__names">
