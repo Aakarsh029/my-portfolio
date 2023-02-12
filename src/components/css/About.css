@@ -4,6 +4,7 @@
     min-width: 75vw;
     padding: 40px;
     margin-top: 50px;
+    overflow-x: hidden;
 }
 
 .About a {
@@ -78,5 +79,7 @@
 @media screen and (max-width: 1000px) {
     .About{
         min-width: 100vw;
+        width: 100vw;
+        padding: 40px;
     } 
 }

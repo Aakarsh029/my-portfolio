@@ -119,6 +119,7 @@
         background-color: white;
         min-width: 100vw;
         padding: 20px;
+        width: 100vw;
         transition: all 0.5s ease;
     }
     .Project__container{
@@ -140,6 +141,14 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .Project{
+        min-height: auto;
+        background-color: white;
+        min-width: 100vw;
+        padding: 20px;
+        width: 100vw;
+        transition: all 0.5s ease;
+    }
     .Project__holder{
         flex-basis: 100%;
         width: 270px;

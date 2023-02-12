@@ -6,6 +6,7 @@
     background-color: #1a0000;
     width: 100%;
     height: 100vh;
+    width: 100vw;
     mix-blend-mode: screen;
 }
 
@@ -35,6 +36,8 @@
     .Body {
         flex: 1;
         margin-left: 0vw;
+        width: 100vw;
+        overflow: hidden;
     }
 
     .body__header__text {
