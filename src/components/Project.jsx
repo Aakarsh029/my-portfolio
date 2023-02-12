@@ -3,6 +3,7 @@ import "./css/Project.css";
 import projects from './GetProjects';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import LinkIcon from '@mui/icons-material/Link';
 function Project() {
   const [items, setItems] = useState(projects);
   const filterItem = (cateItem) => {
@@ -11,7 +12,7 @@ function Project() {
     });
     setItems(updatedItems);
   }
-  
+
   const filter = document.querySelectorAll(".filter");
     var sliderNav = function (manual) {
       filter.forEach((filter) => {
@@ -56,7 +57,7 @@ function Project() {
           items.map((element) => {
             const { name, image, description } = element;
             return (
-              <div className="Project__holder aos-init aos-animate" data-aos="zoom-in">
+              <div className="Project__holder " data-aos="zoom-in">
                 <div className="Project__details">
                   <div className="Project__image">
                     <img src={image} alt="" />
@@ -68,6 +69,8 @@ function Project() {
                     </div>
                   </div>
                 </div>
+                <div className="Project__Absolute__holder"></div>
+                <div className="Project__Absolute__link__holder"><LinkIcon /></div>
               </div>
 
             )

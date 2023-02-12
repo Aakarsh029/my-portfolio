@@ -5,6 +5,7 @@
     padding: 40px;
     margin-top: 50px;
 }
+
 .About a {
     color: #1a0000;
     font-weight: 700;
@@ -26,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px;
 }
 .about__section img{
@@ -72,4 +74,9 @@
 .email{
     font-size: 12px;
     margin-top: 5px;
+}
+@media screen and (max-width: 1000px) {
+    .About{
+        min-width: 100vw;
+    } 
 }

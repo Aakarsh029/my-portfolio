@@ -42,3 +42,13 @@
     margin-top: 5px;
     /* width: 90%; */
 }
+@media screen and (max-width: 1000px) {
+    .Skills{
+        min-width: 100vw;
+    } 
+    .Skills__container{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-basis: 98%;
+    }
+}
