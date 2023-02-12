@@ -63,6 +63,7 @@
     overflow: hidden;
     width: 270px;
     height: 510px;
+    margin: 20px 0 20px 0;
 }
 .Project__Absolute__holder{
     position: absolute;
@@ -102,7 +103,7 @@
 }
 .Project__image img{
     width: 270px;
-    height: 180px;
+    height: 160px;
 }
 .Project__info__heading{
     text-align: center;

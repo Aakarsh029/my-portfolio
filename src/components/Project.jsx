@@ -55,7 +55,7 @@ function Project() {
 
         {
           items.map((element) => {
-            const { name, image, description } = element;
+            const { name, image, description,link } = element;
             return (
               <div className="Project__holder " data-aos="zoom-in">
                 <div className="Project__details">
@@ -70,7 +70,7 @@ function Project() {
                   </div>
                 </div>
                 <div className="Project__Absolute__holder"></div>
-                <div className="Project__Absolute__link__holder"><LinkIcon /></div>
+                <div className="Project__Absolute__link__holder"><a href={link}><LinkIcon /></a></div>
               </div>
 
             )
