@@ -14,7 +14,7 @@ const projects = [
         id: 2,
         image: mg,
         name: " Music Genre Website",
-        category: "web",
+        category: "ml",
         link:"https://github.com/Aakarsh029/Music-Genre",
         description: "Created a Website to find genre of the music. It is a Web + MLProject where frontend is created using the HTML and CSS and Backend is created using DJANGO "
     },
