@@ -1,0 +1,35 @@
+.Experience{
+    min-height: auto;
+    background-color: white;
+    min-width: 75vw;
+    width: 75vw;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+.Experience hr{
+    width: 60px;
+    border: 2px solid #800000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Experience__Certificates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.Experience__Certificates img{
+    width: 250px;
+    height: 180px;
+}
+@media screen and (max-width: 1000px) {
+    .Experience{
+        min-height: auto;
+        background-color: white;
+        min-width: 100vw;
+        padding: 20px;
+        width: 100vw;
+        transition: all 0.5s ease;
+    }
+}

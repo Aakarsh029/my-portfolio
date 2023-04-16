@@ -2,7 +2,34 @@ import io from "./images/io.png";
 import d from "./images/d.png";
 import mg from "./images/MG.png";
 import vmug from "./images/vmug.png";
+import mkt from "./images/mkt.png";
+import ec from "./images/ec.png";
 const projects = [
+    
+    {
+        id: 3,
+        image: io,
+        name: "INDYO ORGANIC WEBSITE Landing Page",
+        category: "web",
+        link:"https://aakarsh029.github.io/INDYO-ORGANIC/",
+        description: " Worked closely with the team members to define and implement Websie. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS, JavaScript and NodeJS.Identified and resolved bugs efficiently. Ensured designs are in compliance with specifications."
+    },
+    {
+        id:4,
+        image: d,
+        name: "DEVFOLKS WEBSITE Landing Page",
+        category: "web",
+        link:"https://aakarsh029.github.io/DEVFOLKS/",
+        description:"Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS, JavaScript and NodeJS. Identified and resolved bugs efficiently. Worked closely with the team members to define and implement Websie"
+    },
+    {
+        id:7,
+        image: ec,
+        name: "Fashion Tip",
+        category: "web",
+        link:"https://aakarsh029.github.io/Ecommerce-Website/",
+        description:"Created a Front End Part Of Ecommerce Website for practice. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS, . Identified and resolved bugs efficiently."
+    },
     {
         id: 1,
         image: "https://static.whatsapp.net/rsrc.php/v3/yR/r/y8-PTBaP90a.png",
@@ -28,20 +55,13 @@ const projects = [
         description: "Created a Website which contains beta version of a virtual mouse using hand gestures. FrontEnd is created using HTML, CSS, JS, GSAP and OPENCV, CVZONE, MEDIAPIPE and NUMPY is used to create gestures module and BackEnd is made in FLASK"
     },
     {
-        id: 3,
-        image: io,
-        name: "INDYO ORGANIC WEBSITE Landing Page",
+        id:6,
+        image: mkt,
+        name: "Professor's Portfolio",
         category: "web",
-        link:"https://aakarsh029.github.io/INDYO-ORGANIC/",
-        description: " Worked closely with the team members to define and implement Websie. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS, JavaScript and NodeJS.Identified and resolved bugs efficiently. Ensured designs are in compliance with specifications."
-    },
-    {
-        id:4,
-        image: d,
-        name: "DEVFOLKS WEBSITE Landing Page",
-        category: "web",
-        link:"https://aakarsh029.github.io/DEVFOLKS/",
-        description:"Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS, JavaScript and NodeJS. Identified and resolved bugs efficiently. Worked closely with the team members to define and implement Websie. Identified and resolved bugs efficiently."
+        link:"https://mohitkt.github.io/Portfolio/",
+        description:"Created a Professor's Portfolio. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS. Identified and resolved bugs efficiently. Identified and resolved bugs efficiently."
     }
+
 ]
 export default projects;

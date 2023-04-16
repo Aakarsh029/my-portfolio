@@ -5,6 +5,7 @@ import About from './About';
 import Skills from './Skills';
 import Typewriter from "typewriter-effect";
 import Project from './Project';
+import Experience from './Experience';
 function Body() {
   return (
     <div className='Body' id='Home'>
@@ -31,6 +32,7 @@ function Body() {
       <About />
       <Skills />
       <Project />
+      <Experience />
     </div>
   )
 }

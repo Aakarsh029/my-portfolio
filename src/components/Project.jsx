@@ -34,7 +34,7 @@ function Project() {
   },[])
 
 
-
+ 
   return (
     <div className="Project" id='Projects'>
       <div className="Project__heading">Project</div>

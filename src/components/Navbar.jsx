@@ -13,6 +13,8 @@ import ContentPasteGoIcon from '@mui/icons-material/ContentPasteGo';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import StarIcon from '@mui/icons-material/Star';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
 function Navbar() {
 
 
@@ -81,9 +83,9 @@ function Navbar() {
                     <a href="#Projects" onClick={() => close()}><div className="Navbar__names">
                         <ContentPasteGoIcon /> <span>Projects</span>
                     </div></a>
-                    <div className="Navbar__names">
-                        <MailOutlineIcon /> <span>Contact</span>
-                    </div>
+                    <a href="#Experience" onClick={() => close()}><div className="Navbar__names">
+                        <StarIcon /> <span>Experience</span>
+                    </div></a>
                     <div className="copyright">@copyright <span>Aakarsh</span></div>
                 </div>
             </div>

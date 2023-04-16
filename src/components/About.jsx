@@ -1,10 +1,12 @@
 import React from 'react'
 import "./css/About.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 function About() {
     return (
         <div className='About' id='About'>
-            <div className="About__heading">About</div>
+            <div className="About__heading" >About</div>
             <hr />
             Hi! I am Aakarsh, a Pre-Final Year Student of Computer Science and Engineering. 
             My Technical Interests include Algorithmic Problem Solving, Web Development, 
