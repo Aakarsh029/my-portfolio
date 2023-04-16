@@ -1,6 +1,7 @@
 import io from "./images/io.png";
 import d from "./images/d.png";
 import mg from "./images/MG.png";
+import vmug from "./images/vmug.png";
 const projects = [
     {
         id: 1,
@@ -17,6 +18,14 @@ const projects = [
         category: "ml",
         link:"https://github.com/Aakarsh029/Music-Genre",
         description: "Created a Website to find genre of the music. It is a Web + MLProject where frontend is created using the HTML and CSS and Backend is created using DJANGO "
+    },
+    {
+        id: 5,
+        image: vmug,
+        name: "Virtual Mouse Beta Version Website",
+        category: "ml",
+        link:"https://aakarsh029.github.io/Virtual-Mouse-Front-End-Part",
+        description: "Created a Website which contains beta version of a virtual mouse using hand gestures. FrontEnd is created using HTML, CSS, JS, GSAP and OPENCV, CVZONE, MEDIAPIPE and NUMPY is used to create gestures module and BackEnd is made in FLASK"
     },
     {
         id: 3,
