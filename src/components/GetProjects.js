@@ -4,6 +4,7 @@ import mg from "./images/MG.png";
 import vmug from "./images/vmug.png";
 import mkt from "./images/mkt.png";
 import ec from "./images/ec.png";
+import cb from "./images/CB.png";
 const projects = [
     
     {
@@ -60,7 +61,15 @@ const projects = [
         name: "Professor's Portfolio",
         category: "web",
         link:"https://mohitkt.github.io/Portfolio/",
-        description:"Created a Professor's Portfolio. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS. Identified and resolved bugs efficiently. Identified and resolved bugs efficiently."
+        description:"Created a Professor's Portfolio. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS. Identified and resolved bugs efficiently. "
+    },
+    {
+        id:7,
+        image: cb,
+        name: "ContraBureau Web ",
+        category: "web",
+        link:"https://aakarsh029.github.io/Collaberative-Project/",
+        description:"Created a Clone of a Well Known Contra Bureau Website which is also hosted on Awwwards.com. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS, JAVASCRIPT and GSAP. Identified and resolved bugs efficiently."
     }
 
 ]
