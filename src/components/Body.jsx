@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Typewriter from "typewriter-effect";
 import Project from './Project';
 import Experience from './Experience';
+import MiniProjects from './MiniProjects';
 function Body() {
   return (
     <div className='Body' id='Home'>
@@ -33,6 +34,7 @@ function Body() {
       <Skills />
       <Project />
       <Experience />
+      {/* <MiniProjects /> */}
     </div>
   )
 }
