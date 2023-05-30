@@ -3,8 +3,9 @@ import d from "./images/d.png";
 import mg from "./images/MG.png";
 import vmug from "./images/vmug.png";
 import mkt from "./images/mkt.png";
-import ec from "./images/ec.png";
+import ec from "./images/ecc.png";
 import cb from "./images/CB.png";
+import pp from "./images/pp.png"
 const projects = [
     
     {
@@ -12,7 +13,7 @@ const projects = [
         image: io,
         name: "INDYO ORGANIC WEBSITE Landing Page",
         category: "web",
-        link:"https://aakarsh029.github.io/INDYO-ORGANIC/",
+        link:"https://indyoorganics.com/",
         description: " Worked closely with the team members to define and implement Websie. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS, JavaScript and NodeJS.Identified and resolved bugs efficiently. Ensured designs are in compliance with specifications."
     },
     {
@@ -20,7 +21,7 @@ const projects = [
         image: d,
         name: "DEVFOLKS WEBSITE Landing Page",
         category: "web",
-        link:"https://aakarsh029.github.io/DEVFOLKS/",
+        link:"https://www.devfolks.in/",
         description:"Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS, JavaScript and NodeJS. Identified and resolved bugs efficiently. Worked closely with the team members to define and implement Websie"
     },
     {
@@ -70,6 +71,14 @@ const projects = [
         category: "web",
         link:"https://aakarsh029.github.io/Collaberative-Project/",
         description:"Created a Clone of a Well Known Contra Bureau Website which is also hosted on Awwwards.com. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS, JAVASCRIPT and GSAP. Identified and resolved bugs efficiently."
+    },
+    {
+        id:8,
+        image: pp,
+        name: "Placement Portal",
+        category: "web",
+        link:"https://talentboltz.netlify.app/",
+        description:"On Collaberation with Seniors we have created a Placement Portal where TPR, TPO and companies can update information for students instead of verbal communication which creates a lot of problems due to communication gap among students. Frontend Of the Placement Portal is created in React Typescript and Backend is created in Django. It can ease a lot of work of faculty and students due to transparency among everyone. transparency among everyone. "
     }
 
 ]

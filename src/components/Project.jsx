@@ -65,7 +65,7 @@ function Project() {
                   <div className="Project__info">
                     <div className="Project__info__heading">{name}</div>
                     <div className="Project__info__content">
-                      {description}
+                      {description} 
                     </div>
                   </div>
                 </div>

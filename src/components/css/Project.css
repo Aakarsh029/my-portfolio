@@ -62,18 +62,24 @@
     flex-basis: 32%;
     overflow: hidden;
     width: 270px;
-    height: 510px;
+    height: 540px;
     margin: 20px 0 20px 0;
 }
 .Project__Absolute__holder{
     position: absolute;
     width: 270px;
-    height: 510px;
+    height: 540px;
     background: rgba(255,255,255,0.7);
     margin: 0 10px 30px 10px;
     opacity: 0;
     top: 0;
     transition: opacity 0.5s ease;
+}
+.Project__details{
+    width: 270px;
+    height: 540px;
+    background-color: #FFC0CB;
+    margin: 0 10px 30px 10px;
 }
 .Project__holder:hover > .Project__Absolute__holder{
     opacity: 1;
@@ -95,15 +101,10 @@
 .Project__holder:hover > .Project__Absolute__link__holder{
     transform: translateY(0px);
 }
-.Project__details{
-    width: 270px;
-    height: 510px;
-    background-color: #FFC0CB;
-    margin: 0 10px 30px 10px;
-}
 .Project__image img{
     width: 270px;
-    height: 160px;
+    height: 140px;
+    /* object-fit: cover; */
 }
 .Project__info__heading{
     text-align: center;
