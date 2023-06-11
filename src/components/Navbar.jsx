@@ -10,6 +10,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import BookIcon from '@mui/icons-material/Book';
 import ContentPasteGoIcon from '@mui/icons-material/ContentPasteGo';
+import AppsIcon from '@mui/icons-material/Apps';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -85,6 +86,9 @@ function Navbar() {
                     </div></a>
                     <a href="#Experience" onClick={() => close()}><div className="Navbar__names">
                         <StarIcon /> <span>Experience</span>
+                    </div></a>
+                    <a href="#MiniProjects" onClick={() => close()}><div className="Navbar__names">
+                        <AppsIcon /> <span>Mini Projects</span>
                     </div></a>
                     <div className="copyright">@copyright <span>Aakarsh</span></div>
                 </div>

@@ -34,7 +34,7 @@ function Body() {
       <Skills />
       <Project />
       <Experience />
-      {/* <MiniProjects /> */}
+      <MiniProjects />
     </div>
   )
 }

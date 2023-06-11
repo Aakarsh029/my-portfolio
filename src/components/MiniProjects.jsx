@@ -1,41 +1,40 @@
 import React from 'react'
 import "./css/MiniProjects.css";
+import s22 from "./images/Screenshot (22)copy.png"
+import s23 from "./images/Screenshot (23).png"
+import s24 from "./images/Screenshot (24).png"
+import s25 from "./images/Screenshot (25).png"
+import s26 from "./images/Screenshot (26).png"
+import s27 from "./images/Screenshot (27).png"
+import s33 from "./images/Screenshot (33).png"
+import s42 from "./images/Screenshot (42).png"
+import s43 from "./images/Screenshot (43).png"
+import s62 from "./images/Screenshot (62).png"
+import s37 from "./images/Screenshot (37)copy.png"
 function MiniProjects() {
     return (
-        <div className='MiniProjects'>
+        <div className='MiniProjects' id='MiniProjects'>
             <div className="Project__heading">Mini Projects</div>
             <hr />
-            <div class="svgmaker">
-                <svg viewbox="0 0 100 50" >
-                    <use x="5" y="5" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(24).png?raw=true" />
-                    <image x="5" y="16" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(23).png?raw=true"></image>
-                    <image x="27" y="5" width="31" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(22)copy.png?raw=true"></image>
-                    <image x="61" y="5" width="9.3" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(26).png?raw=true"></image>
-                    <image x="72" y="5" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(25).png?raw=true"></image>
-                    <image x="72" y="16" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(27).png?raw=true"></image>
-                    <image x="5" y="27" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(37)copy.png?raw=true"></image>
-                    <image x="27" y="27" width="21" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(28).png?raw=true"></image>
-                    <image x="27" y="39" width="21" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(29).png?raw=true"></image>
-                    <image x="49" y="27" width="21" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(30).png?raw=true"></image>
-                    <image x="49" y="39" width="21" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(31).png?raw=true"></image>
-                    <image x="72" y="27" width="21" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(32).png?raw=true"></image>
-                    <image x="72" y="39" width="21" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(33).png?raw=true"></image>
-                </svg>
+            <div class="main-content">
+                <div class="portfolio-1">
+                    <div class="portfolio-item small"><a href="https://aakarsh029.github.io/youtube-clone/">
+                        <img src="data:image/png;base64,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" alt="" />
+                        </a></div>
+                    <div class="portfolio-item large"><a href="https://aakarsh029.github.io/Gsap-Landing-Page-Click-Animation/"><img src={s22} alt="" /></a></div>
+                    <div class="portfolio-item tall"><a href="https://aakarsh029.github.io/Gsap-Video-Reveal-Page/"><img src={s26} alt="" /></a></div>
+                    <div class="portfolio-item small"><a href="https://aakarsh029.github.io/OffCanvas-Gsap-Menu-Bar/"><img src={s23} alt="" /></a></div>
+                    <div class="portfolio-item small"><a href="https://aakarsh029.github.io/Modern-Landing-Gsap-Page-1/"><img src={s24} alt="" /></a></div>
+                    <div class="portfolio-item small"><a href="https://aakarsh029.github.io/Potential-Hamburger-Menu/"><img src={s25} alt="" /></a></div>
+                    <div class="portfolio-item tall"><a href="https://aakarsh029.github.io/Image-Video-Screen/"><img src={s37} alt="" /></a></div>
+                    <div class="portfolio-item small"><a href="https://aakarsh029.github.io/Modern-Landing-Gsap-Page-2/"><img src={s27} alt="" /></a></div>
+                    <div class="portfolio-item small"><a href="https://aakarsh029.github.io/GSAP-Animations/"><img src={s33} alt="" /></a></div>
+                    <div class="portfolio-item large"><a href="https://aakarsh029.github.io/Gsap-Preview/"><img src={s62} alt="" /></a></div>
+                    <div class="portfolio-item small"><a href="https://aakarsh029.github.io/3D-Infinite-Slider/"><img src={s42} alt="" /></a></div>
+                    <div class="portfolio-item small"><a href="https://aakarsh029.github.io/Video-Slider/"><img src={s43} alt="" /></a></div>
+                </div>
             </div>
-            <div class="svgmaker">
-                <svg viewbox="0 0 100 50" >
-                    <image x="5" y="5" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(34).png?raw=true"></image>
-                    <image x="5" y="16" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(36).png?raw=true"></image>
-                    <image x="27" y="5" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(38).png?raw=true"></image>
-                    <image x="27" y="16" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(39).png?raw=true"></image>
-                    <image x="50" y="5" width="45" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(45).png?raw=true"></image>
-                    <image x="5" y="27" width="45" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(46).png?raw=true"></image>
-                    <image x="51" y="27" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(40).png?raw=true"></image>
-                    <image x="51" y="38" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(41).png?raw=true"></image>
-                    <image x="73" y="27" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(42).png?raw=true"></image>
-                    <image x="73" y="38" width="20" xlinkHref="https://github.com/Aakarsh029/svg-portfolio/blob/main/images/Screenshot%20(43).png?raw=true"></image>
-                </svg>
-            </div>
+            <a href="https://docs.google.com/document/d/1F90QfPCo0gE9W_aNbQAxI8RO9qlknQJPr0yHydnpFmY/edit"><button>More</button></a>
         </div>
     )
 }

@@ -68,6 +68,7 @@
 }
 .Navbar__icons{
     padding: 20px;
+    padding-top: 10px;
 }
 .Navbar__icons a{
     text-decoration: none;
@@ -95,6 +96,7 @@
 .copyright span{
     color: #ff0000;
 }
+
 @media screen and (max-width: 1000px) {
     .Navbar{
         transform: translateX(-300px);
