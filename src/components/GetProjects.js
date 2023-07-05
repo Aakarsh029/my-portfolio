@@ -6,6 +6,8 @@ import mkt from "./images/mkt.png";
 import ec from "./images/ecc.png";
 import cb from "./images/CB.png";
 import pp from "./images/pp.png"
+import ft from "./images/ft.png"
+
 const projects = [
     
     {
@@ -82,7 +84,7 @@ const projects = [
     },
     {
         id:9,
-        image: pp,
+        image: ft,
         name: "Fashion Tip",
         category: "web",
         link:"https://alive-red-tunic.cyclic.app/",
