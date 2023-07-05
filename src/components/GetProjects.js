@@ -79,6 +79,14 @@ const projects = [
         category: "web",
         link:"https://talentboltz.netlify.app/",
         description:"On Collaberation with Seniors we have created a Placement Portal where TPR, TPO and companies can update information for students instead of verbal communication which creates a lot of problems due to communication gap among students. Frontend Of the Placement Portal is created in React Typescript and Backend is created in Django. It can ease a lot of work of faculty and students due to transparency among everyone. transparency among everyone. "
+    },
+    {
+        id:9,
+        image: pp,
+        name: "Fashion Tip",
+        category: "web",
+        link:"https://alive-red-tunic.cyclic.app/",
+        description:"Created a Ecommerce Website Fashion Tip with the MERN Stack( MONGODB , EXPRESSJS , REACTJS , NODEJS , CSS and SCSS ). The website provides a visually appealing and intuitive interface that enables users to navigate through product categories, view product details, and easily locate desired items. The website displays a comprehensive catalog of products or services available for purchase. Each item is typically accompanied by descriptions, images, pricing, and other relevant information to assist customers in making informed decisions."
     }
 
 ]

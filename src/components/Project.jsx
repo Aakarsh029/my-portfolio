@@ -68,7 +68,7 @@ function Project() {
                       {description} 
                     </div>
                   </div>
-                </div>
+                </div> 
                 <div className="Project__Absolute__holder"></div>
                 <div className="Project__Absolute__link__holder"><a href={link}><LinkIcon /></a></div>
               </div>
