@@ -1,6 +1,7 @@
 import React from 'react';
 import "./css/Experience.css";
 import fei from"./images/FrontEndInternship.png";
+import freight from "./images/freight.jpg";
 import ri from "./images/AakarshResearchCertificate.jpg";
 export default function Experience() {
   return (
@@ -11,6 +12,9 @@ export default function Experience() {
             <a href={fei} target='_blank'><img src={fei} alt="" /></a>
             <a target='_blank' href="https://drive.google.com/file/d/1JXP9O-kDQarMnf-J1WiXexhDy2lwgaf_/view?usp=share_link">
               <img id='experience__certificate__2' src={ri} alt="" />
+            </a>
+            <a href='https://drive.google.com/file/d/1HGIwtUlvIbitRO1iqxAcdHo7H0upr7h5/view?usp=sharing'>
+              <img  src={freight} alt="" />
             </a>
         </div>
     </div>

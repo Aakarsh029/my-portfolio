@@ -90,6 +90,5 @@ const projects = [
         link:"https://alive-red-tunic.cyclic.app/",
         description:"Created a Ecommerce Website Fashion Tip with the MERN Stack( MONGODB , EXPRESSJS , REACTJS , NODEJS , CSS and SCSS ). The website provides a visually appealing and intuitive interface that enables users to navigate through product categories, view product details, and easily locate desired items. The website displays a comprehensive catalog of products or services available for purchase. Each item is typically accompanied by descriptions, images, pricing, and other relevant information to assist customers in making informed decisions."
     }
-
 ]
 export default projects;
