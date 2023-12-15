@@ -96,8 +96,8 @@ const projects = [
         image: dap,
         name: "Drug Abuse And Prevention",
         category: "web",
-        link: "https://alive-red-tunic.cyclic.app/",
-        description: "Learn about the signs and symptoms of drug abuse. Understanding the early indicators can help in prevention and intervention.Discover effective prevention strategies, educational programs, and community initiatives that can help prevent drug abuse among individuals and communities.Reporting drug abuse is a powerful stand against the destruction of lives and dreams. Be the voice that speaks out, the hand that reaches out, and the heart that cares.Breaking Chains, a safe space where you can share your stories and seek support anonymously. If you're struggling with drug abuse or addiction, you can ask for help without revealing your identity. Share your journey, inspire others."
+        link: "https://github.com/Drug-Abuse-and-Prevention/DrugAbusePreventionNew/tree/main",
+        description: "Learn about the signs and symptoms of drug abuse. Understanding the early indicators can help in prevention and intervention.Discover effective prevention strategies, educational programs, and community initiatives that can help prevent drug abuse among individuals and communities.Reporting drug abuse is a powerful stand against the destruction of lives and dreams. Be the voice that speaks out, the hand that reaches out, and the heart that cares.Breaking Chains, a safe space where you can share your stories and seek support anonymously. "
     }
 ]
 export default projects;
