@@ -7,6 +7,7 @@ import ec from "./images/ecc.png";
 import cb from "./images/CB.png";
 import pp from "./images/pp.png"
 import ft from "./images/ft.png"
+import dap from "./images/dap.png"
 
 const projects = [
     
@@ -63,7 +64,7 @@ const projects = [
         image: mkt,
         name: "Professor's Portfolio",
         category: "web",
-        link:"https://mohitkt.github.io/Portfolio/",
+        link:"https://mohitkt.github.io/",
         description:"Created a Professor's Portfolio. Consistently wrote well-designed, efficient and testable code according to the specifications. Used languages like HTML, CSS. Identified and resolved bugs efficiently. "
     },
     {
@@ -89,6 +90,14 @@ const projects = [
         category: "web",
         link:"https://alive-red-tunic.cyclic.app/",
         description:"Created a Ecommerce Website Fashion Tip with the MERN Stack( MONGODB , EXPRESSJS , REACTJS , NODEJS , CSS and SCSS ). The website provides a visually appealing and intuitive interface that enables users to navigate through product categories, view product details, and easily locate desired items. The website displays a comprehensive catalog of products or services available for purchase. Each item is typically accompanied by descriptions, images, pricing, and other relevant information to assist customers in making informed decisions."
+    }, 
+    {
+        id: 10,
+        image: dap,
+        name: "Drug Abuse And Prevention",
+        category: "web",
+        link: "https://alive-red-tunic.cyclic.app/",
+        description: "Learn about the signs and symptoms of drug abuse. Understanding the early indicators can help in prevention and intervention.Discover effective prevention strategies, educational programs, and community initiatives that can help prevent drug abuse among individuals and communities.Reporting drug abuse is a powerful stand against the destruction of lives and dreams. Be the voice that speaks out, the hand that reaches out, and the heart that cares.Breaking Chains, a safe space where you can share your stories and seek support anonymously. If you're struggling with drug abuse or addiction, you can ask for help without revealing your identity. Share your journey, inspire others."
     }
 ]
 export default projects;
