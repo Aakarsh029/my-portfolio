@@ -10,7 +10,14 @@ import ft from "./images/ft.png"
 import dap from "./images/dap.png"
 
 const projects = [
-    
+    {
+        id: 12,
+        image: "https://images.unsplash.com/photo-1583361704493-d4d4d1b1d70a?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "C++ Dictionary Application",
+        category: "C++",
+        link: "https://github.com/Aakarsh029/ORGANIC-DICTIONARY",
+        description: "The C++ dictionary application is a powerful and efficient tool designed for managing and retrieving word definitions, translations, and related information. Developed using the C++ programming language, this application provides a user-friendly interface and robust functionality for users seeking to explore and expand their language knowledge."
+    },
     {
         id: 3,
         image: io,
@@ -98,6 +105,15 @@ const projects = [
         category: "web",
         link: "https://github.com/Drug-Abuse-and-Prevention/DrugAbusePreventionNew/tree/main",
         description: "Learn about the signs and symptoms of drug abuse. Understanding the early indicators can help in prevention and intervention.Discover effective prevention strategies, educational programs, and community initiatives that can help prevent drug abuse among individuals and communities.Reporting drug abuse is a powerful stand against the destruction of lives and dreams. Be the voice that speaks out, the hand that reaches out, and the heart that cares.Breaking Chains, a safe space where you can share your stories and seek support anonymously. "
-    }
+    },
+    {
+        id: 11,
+        image: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "C++ Paint Application",
+        category: "C++",
+        link: "https://github.com/Aakarsh029/C_GRAPHICS_PAINT_APPLICATION",
+        description: "The C++ Paint Application is a versatile and user-friendly graphic software designed for creating digital art, illustrations, and designs. Developed using the powerful C++ programming language, this application offers a robust set of features and a seamless user interface, making it accessible to both beginners and experienced artists.Developed in C++, the paint application is designed to run smoothly on various operating systems, ensuring a consistent experience for users."
+    },
+    
 ]
 export default projects;
