@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.110e30e2.css",
-    "main.js": "/my-portfolio/static/js/main.2496dba4.js",
+    "main.css": "/my-portfolio/static/css/main.49046876.css",
+    "main.js": "/my-portfolio/static/js/main.e876783c.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/MG.png": "/my-portfolio/static/media/MG.4125801ae2888d5d3139.png",
     "static/media/Screenshot (43).png": "/my-portfolio/static/media/Screenshot (43).1b4cfa27ccc56681cbf8.png",
@@ -10,8 +10,15 @@
     "static/media/dap.png": "/my-portfolio/static/media/dap.85a403ac9dc3ea52450f.png",
     "static/media/1.jpg": "/my-portfolio/static/media/1.ce76565ae2a65fa4f429.jpg",
     "static/media/Screenshot (37)copy.png": "/my-portfolio/static/media/Screenshot (37)copy.7cbadad97ff481ee9699.png",
+    "static/media/certi_page-0004.jpg": "/my-portfolio/static/media/certi_page-0004.e595a156eaccf5cee001.jpg",
+    "static/media/certi_page-0003.jpg": "/my-portfolio/static/media/certi_page-0003.ae16244a145e139d504c.jpg",
+    "static/media/certi_page-0001.jpg": "/my-portfolio/static/media/certi_page-0001.19b40dbb2168eab13361.jpg",
+    "static/media/certi_page-0006.jpg": "/my-portfolio/static/media/certi_page-0006.bf99434e77826547756b.jpg",
+    "static/media/Aakarsh first year Ecell.png": "/my-portfolio/static/media/Aakarsh first year Ecell.b8c647ba23ac0ba33394.png",
+    "static/media/certi_page-0002.jpg": "/my-portfolio/static/media/certi_page-0002.20c03fe246ac6ed7db32.jpg",
     "static/media/vmug.png": "/my-portfolio/static/media/vmug.f11ac377f15b4c6cd96b.png",
     "static/media/pp.png": "/my-portfolio/static/media/pp.be0803339cbe0b74cb09.png",
+    "static/media/certi_page-0005.jpg": "/my-portfolio/static/media/certi_page-0005.3a08282a893ff53edb8c.jpg",
     "static/media/Screenshot (24).png": "/my-portfolio/static/media/Screenshot (24).59eebc88b4594a033910.png",
     "static/media/d.png": "/my-portfolio/static/media/d.d76bd22ce436bdea6776.png",
     "static/media/AakarshResearchCertificate.jpg": "/my-portfolio/static/media/AakarshResearchCertificate.c1d1c733132a3dae49aa.jpg",
@@ -20,8 +27,10 @@
     "static/media/Screenshot (62).png": "/my-portfolio/static/media/Screenshot (62).50e65df2e4e6c0d1d2a0.png",
     "static/media/Screenshot (42).png": "/my-portfolio/static/media/Screenshot (42).784ae6f172c7685a9c77.png",
     "static/media/FrontEndInternship.png": "/my-portfolio/static/media/FrontEndInternship.a697cf3b157ec7faf6b3.png",
+    "static/media/iste.png": "/my-portfolio/static/media/iste.92a819578a536c1cd75f.png",
     "static/media/mkt.png": "/my-portfolio/static/media/mkt.78ac079bd14fc0433331.png",
     "static/media/io.png": "/my-portfolio/static/media/io.ab18943123d31f830e7a.png",
+    "static/media/App Team Final Yr Certificate.png": "/my-portfolio/static/media/App Team Final Yr Certificate.7621769827d14d4ee76e.png",
     "static/media/freight.jpg": "/my-portfolio/static/media/freight.41c6b6aad27d7284b781.jpg",
     "static/media/Screenshot (22)copy.png": "/my-portfolio/static/media/Screenshot (22)copy.872e0672c4f372905771.png",
     "static/media/CB.png": "/my-portfolio/static/media/CB.c311b068eb73d3bea8a2.png",
@@ -31,12 +40,12 @@
     "static/media/close-removebg-preview.png": "/my-portfolio/static/media/close-removebg-preview.f1ce102b72462051804d.png",
     "static/media/ham-removebg-preview.png": "/my-portfolio/static/media/ham-removebg-preview.42f84ec39d3a36ce74ca.png",
     "index.html": "/my-portfolio/index.html",
-    "main.110e30e2.css.map": "/my-portfolio/static/css/main.110e30e2.css.map",
-    "main.2496dba4.js.map": "/my-portfolio/static/js/main.2496dba4.js.map",
+    "main.49046876.css.map": "/my-portfolio/static/css/main.49046876.css.map",
+    "main.e876783c.js.map": "/my-portfolio/static/js/main.e876783c.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.110e30e2.css",
-    "static/js/main.2496dba4.js"
+    "static/css/main.49046876.css",
+    "static/js/main.e876783c.js"
   ]
 }
