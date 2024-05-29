@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.49046876.css",
-    "main.js": "/my-portfolio/static/js/main.e876783c.js",
+    "main.js": "/my-portfolio/static/js/main.1af2b43d.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/MG.png": "/my-portfolio/static/media/MG.4125801ae2888d5d3139.png",
     "static/media/Screenshot (43).png": "/my-portfolio/static/media/Screenshot (43).1b4cfa27ccc56681cbf8.png",
@@ -33,6 +33,8 @@
     "static/media/App Team Final Yr Certificate.png": "/my-portfolio/static/media/App Team Final Yr Certificate.7621769827d14d4ee76e.png",
     "static/media/freight.jpg": "/my-portfolio/static/media/freight.41c6b6aad27d7284b781.jpg",
     "static/media/Screenshot (22)copy.png": "/my-portfolio/static/media/Screenshot (22)copy.872e0672c4f372905771.png",
+    "static/media/CertificateOfCompletion_SQL Server Fundamentals Master Basic Query Techniques_page-0001.jpg": "/my-portfolio/static/media/CertificateOfCompletion_SQL Server Fundamentals Master Basic Query Techniques_page-0001.0657ad01833fca1e6ec7.jpg",
+    "static/media/CertificateOfCompletion_Level Up Advanced SQL_page-0001.jpg": "/my-portfolio/static/media/CertificateOfCompletion_Level Up Advanced SQL_page-0001.c7ed8044da06b31f1b52.jpg",
     "static/media/CB.png": "/my-portfolio/static/media/CB.c311b068eb73d3bea8a2.png",
     "static/media/Screenshot (25).png": "/my-portfolio/static/media/Screenshot (25).7b805b70bb01689c8754.png",
     "static/media/Screenshot (23).png": "/my-portfolio/static/media/Screenshot (23).ab3e30a7b277b00efbb5.png",
@@ -41,11 +43,11 @@
     "static/media/ham-removebg-preview.png": "/my-portfolio/static/media/ham-removebg-preview.42f84ec39d3a36ce74ca.png",
     "index.html": "/my-portfolio/index.html",
     "main.49046876.css.map": "/my-portfolio/static/css/main.49046876.css.map",
-    "main.e876783c.js.map": "/my-portfolio/static/js/main.e876783c.js.map",
+    "main.1af2b43d.js.map": "/my-portfolio/static/js/main.1af2b43d.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49046876.css",
-    "static/js/main.e876783c.js"
+    "static/js/main.1af2b43d.js"
   ]
 }
