@@ -26,7 +26,7 @@ export default function Certificates() {
         <div className="Project__heading">APP TEAM Certificate</div>
         <hr />
         <div className="Certificates__Certificates">
-            <a href="https://drive.google.com/file/d/1oR_OXUG9YMhKiJC3eoCD1x9lpMKFs6nJ/view?usp=sharing" target='_blank'><img src={app1} alt="" /></a>
+            <a href="https://drive.google.com/file/d/1jZmsrxbCrvcCNbKqRbOUwpSR_Bn4CXlL/view?usp=sharing" target='_blank'><img src={app1} alt="" /></a>
             <a href="https://drive.google.com/file/d/1_jmJOZmn0J_mC-brh5ZeObBxm0ftI2tq/view?usp=sharing" target='_blank'><img src={cert3} alt="" /></a>
         </div>
 
