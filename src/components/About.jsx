@@ -26,7 +26,7 @@ function About() {
                             <KeyboardArrowRightIcon /> <div className="about__content__details__column__detail"><span>Degree:</span>B.Tech</div>
                         </div>
                         <div className="about__content__details__column">
-                            <KeyboardArrowRightIcon /> <div className="about__content__details__column__detail"><span>Email:</span><div className="email">aakarshbansal2002@gmail.com</div></div>
+                            <KeyboardArrowRightIcon /> <div className="about__content__details__column__detail"><span>Email:</span><div className="email"> aakarshbansal2002@gmail.com</div></div>
                         </div>
                         <div className="about__content__details__column">
                             <KeyboardArrowRightIcon /> <div className="about__content__details__column__detail"><span>City:</span>Hamirpur, Himachal</div>

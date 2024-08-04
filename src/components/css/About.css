@@ -60,22 +60,22 @@
 }
 .about__content__details__column > .MuiSvgIcon-root{
     color: #1a0000;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
     margin-top: 5px;
 }
 .about__content__details__column__detail{
     margin-top: 9px;
     display: flex;
-    font-size: 18px;
+    font-size: 14px;
 }
 .about__content__details__column__detail > span{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
 }
 .email{
-    font-size: 12px;
-    margin-top: 5px;
+    font-size: 14px;
+    margin-left: 5px;
 }
 @media screen and (max-width: 1000px) {
     .About{
