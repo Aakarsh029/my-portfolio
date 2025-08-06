@@ -1,0 +1,232 @@
+.Freelancing {
+    min-height: auto;
+    background-color: white;
+    min-width: 75vw;
+    width: 75vw;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+
+.Freelancing__heading {
+    font-size: 30px;
+    color: #1a0000;
+    font-weight: 700;
+}
+
+.Freelancing hr {
+    width: 60px;
+    border: 2px solid #800000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Freelancing__content {
+    margin: 10px 0 50px 0;
+}
+
+.Freelancing__tabs {
+    display: flex;
+    justify-content: center;
+    mix-blend-mode: multiply;
+}
+
+#Freelancing__tab__filters {
+    margin: 0 auto 35px auto;
+    list-style: none;
+    text-align: center;
+    background-color: #FFC0CB;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    padding: 2px 15px;
+}
+
+#Freelancing__tab__filters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    transition: all 0.2s ease;
+}
+
+.freelance-filter.active {
+    color: #ff0000;
+}
+
+.Freelancing__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    mix-blend-mode: multiply;
+}
+
+.Freelancing__holder {
+    flex-basis: 32%;
+    overflow: hidden;
+    width: 270px;
+    height: 620px;
+    margin: 20px 0 20px 0;
+}
+
+.Freelancing__Absolute__holder {
+    position: absolute;
+    width: 270px;
+    height: 620px;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 0 10px 30px 10px;
+    opacity: 0;
+    top: 0;
+    transition: opacity 0.5s ease;
+}
+
+.Freelancing__details {
+    width: 270px;
+    height: 620px;
+    background-color: #FFC0CB;
+    margin: 0 10px 30px 10px;
+}
+
+.Freelancing__holder:hover > .Freelancing__Absolute__holder {
+    opacity: 1;
+}
+
+.Freelancing__Absolute__link__holder {
+    position: absolute;
+    width: 270px;
+    background-color: rgba(203, 44, 49, 1);
+    bottom: 0;
+    height: 40px;
+    margin: 0 10px 0px 10px;
+    transition: transform 0.5s ease;
+    transform: translateY(40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Freelancing__holder:hover > .Freelancing__Absolute__link__holder {
+    transform: translateY(0px);
+}
+
+.Freelancing__image img {
+    width: 270px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.Freelancing__info__heading {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Freelancing__client {
+    text-align: center;
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Freelancing__duration {
+    text-align: center;
+    margin: 5px 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.Freelancing__status {
+    text-align: center;
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 12px;
+    display: inline-block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Freelancing__status.completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.Freelancing__status.ongoing {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.Freelancing__status.pending {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.Freelancing__info__content {
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 1000px) {
+    .Freelancing {
+        min-height: auto;
+        background-color: white;
+        min-width: 100vw;
+        padding: 20px;
+        width: 100vw;
+        transition: all 0.5s ease;
+    }
+
+    .Freelancing__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        mix-blend-mode: multiply;
+        width: 100vw;
+    }
+
+    .Freelancing__holder {
+        flex-basis: 50%;
+        width: 270px;
+        height: 560px;
+        margin: 20px 0 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .Freelancing {
+        min-height: auto;
+        background-color: white;
+        min-width: 100vw;
+        padding: 20px;
+        width: 100vw;
+        transition: all 0.5s ease;
+    }
+
+    .Freelancing__holder {
+        flex-basis: 100%;
+        width: 270px;
+        height: 560px;
+        margin: 20px 0 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

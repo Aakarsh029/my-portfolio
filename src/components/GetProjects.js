@@ -97,7 +97,7 @@ const projects = [
         category: "web",
         link:"https://alive-red-tunic.cyclic.app/",
         description:"Created a Ecommerce Website Fashion Tip with the MERN Stack( MONGODB , EXPRESSJS , REACTJS , NODEJS , CSS and SCSS ). The website provides a visually appealing and intuitive interface that enables users to navigate through product categories, view product details, and easily locate desired items. The website displays a comprehensive catalog of products or services available for purchase. Each item is typically accompanied by descriptions, images, pricing, and other relevant information to assist customers in making informed decisions."
-    }, 
+    },
     {
         id: 10,
         image: dap,
@@ -114,6 +114,6 @@ const projects = [
         link: "https://github.com/Aakarsh029/C_GRAPHICS_PAINT_APPLICATION",
         description: "The C++ Paint Application is a versatile and user-friendly graphic software designed for creating digital art, illustrations, and designs. Developed using the powerful C++ programming language, this application offers a robust set of features and a seamless user interface, making it accessible to both beginners and experienced artists.Developed in C++, the paint application is designed to run smoothly on various operating systems, ensuring a consistent experience for users."
     },
-    
+
 ]
 export default projects;

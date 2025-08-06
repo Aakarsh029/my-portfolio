@@ -8,6 +8,7 @@ import Project from './Project';
 import Experience from './Experience';
 import MiniProjects from './MiniProjects';
 import Certificates from './Certificates';
+import Freelancing from "./Freelancing";
 function Body() {
   return (
     <div className='Body' id='Home'>
@@ -33,8 +34,9 @@ function Body() {
       </div>
       <About />
       <Skills />
-      <Project />
+      <Freelancing />
       <Experience />
+      <Project />
       <Certificates />
       <MiniProjects />
     </div>
